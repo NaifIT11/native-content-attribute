@@ -16,4 +16,8 @@ p.text{
     padding: 3rem;
     border-radius: 0.65rem;
     background-color: #f5d1d1;
+    &::before{
+        content: "●";
+        margin-right: 1rem;
+    }
 }
