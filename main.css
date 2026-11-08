@@ -4,3 +4,11 @@
     box-sizing: border-box;
     font-family: "Nunito";
 }
+
+* {
+    --bg-body: #ffffffed;
+}
+
+body{
+    background: var(--bg-body);
+}
