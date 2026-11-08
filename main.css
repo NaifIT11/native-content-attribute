@@ -12,3 +12,9 @@
 body{
     background: var(--bg-body);
 }
+
+
+p.text{
+    padding: 3rem;
+    border-radius: 0.65rem;
+}
