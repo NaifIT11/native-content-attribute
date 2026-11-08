@@ -17,7 +17,7 @@ p.text{
     border-radius: 0.65rem;
     background-color: #f5d1d1;
     &::before{
-        content: "●";
+        content: attr(data-emoji);
         margin-right: 1rem;
     }
 }
